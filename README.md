@@ -20,7 +20,7 @@ Detaliile implementării nu contează, atât timp cât obțineți comportamentul
 Pentru a crea un branch nou puteți folosi comanda:
 
 ```
-git checkout -b multi-arg`
+git checkout -b multi-arg
 ```
 
 Când terminați exercițiul, nu uitați să adăugați schimbările într-un commit:
