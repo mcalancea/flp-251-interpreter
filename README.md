@@ -19,11 +19,20 @@ Detaliile implementării nu contează, atât timp cât obțineți comportamentul
 
 Pentru a crea un branch nou puteți folosi comanda:
 
-`git checkout -b multi-arg`
+```
+git checkout -b multi-arg`
+```
 
 Când terminați exercițiul, nu uitați să adăugați schimbările într-un commit:
 
 ```
 git add -u
 git commit -m "Add multi-arg functionality."
+```
+
+În final, reveniți pe branch-ul main și creați un ZIP din branch-ul `multi-arg`:
+
+```
+git checkout main
+git archive --output=./multi_arg.zip --format=zip multi-arg
 ```
